@@ -13,8 +13,8 @@ const inkClothes = uniformSectionData.slice(30,40)
       <div className='max-w-[55rem] pb-4  mx-auto'>
      <div className='grid grid-cols-3  gap-y-6 md:gap-y-10 md:grid-cols-4 lg:grid-cols-5'>
     {inkClothes.map((product) => (
-      <Link href={`/uniform/${product.id}`}>
-      <div className="tar-preview animate-customAnimation" key={product.id}>
+      <Link key={product.id} href={`/uniform/${product.id}`}>
+      <div className="tar-preview animate-customAnimation" >
       <div className='flex items-center min-h-[48vw] md:min-h-[25vw] xl:min-h-[18vw]'>
       <div className='relative'>
       <Image className='' src={product.img} alt='tar'/> 

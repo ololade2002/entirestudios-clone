@@ -17,8 +17,8 @@ const router = useRouter()
       <div className='max-w-[55rem]  mx-auto'>
      <div className='grid grid-cols-3  gap-y-6 md:gap-y-10 md:grid-cols-4 lg:grid-cols-5'>
     {rhinoClothes.map((product) => (
-      <div onClick={() => router.push(`uniform/${product.id}`)} >
-      <div className="tar-preview animate-customAnimation" key={product.id}>
+      <div key={product.id} onClick={() => router.push(`uniform/${product.id}`)} >
+      <div className="tar-preview animate-customAnimation" >
       <div className='flex items-center min-h-[48vw] md:min-h-[25vw] xl:min-h-[18vw]'>
       <div className='relative'>
       <Image className='' src={product.img} alt='tar'/> 

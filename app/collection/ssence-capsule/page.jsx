@@ -15,8 +15,8 @@ const ssenceData = heroSectionData.slice(2,67)
     <div className=' max-w-[50rem] mx-auto  '>
     <div className='grid grid-cols-5 '>
     {ssenceData.map((product) => (
-    <Link href={`/product/${product.id}`}>
-    <div className="product-preview" key={product.id}>
+    <Link key={product.id} href={`/product/${product.id}`}>
+    <div className="product-preview" >
     <Image className='  ' src={product.img} alt={product.title} />
     </div>
     </Link>

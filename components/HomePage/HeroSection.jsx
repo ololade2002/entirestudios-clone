@@ -16,8 +16,8 @@ const router = useRouter()
     <div className="hero max-w-[50rem] mx-auto">
     <div className='grid grid-cols-5 '>
      {heroSectionData.map((product) => (
-     <div onClick={() => router.push(`product/${product.id}`)}  >
-     <div className="hero-preview  " key={product.id}>
+     <div key={product.id} onClick={() => router.push(`product/${product.id}`)}  >
+     <div className="hero-preview  " >
      <Image className='w-full h-auto transition  duration-1000 transform  cursor-pointer ' alt='image' src={product.img}/>
     
      </div>

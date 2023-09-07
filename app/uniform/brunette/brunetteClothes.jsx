@@ -12,8 +12,8 @@ const brunetteClothes = () => {
       <div className="mx-auto pb-4 max-w-[55rem] ">
       <div className='grid grid-cols-3  gap-y-6 md:gap-y-10 md:grid-cols-4 lg:grid-cols-5' >
       {brunetteClothes.map((product) => (
-      <Link href={`/uniform/${product.id}`}>
-      <div className="brunette-preview animate-customAnimation" key={product.id}>
+      <Link key={product.id} href={`/uniform/${product.id}`}>
+      <div className="brunette-preview animate-customAnimation" >
       <div className='flex items-center min-h-[48vw] md:min-h-[25vw] xl:min-h-[18vw]'>
       <div className='relative'>
       <Image className='' src={product.img} alt='tar'/> 

@@ -57,8 +57,8 @@ return (
     {product.colors.map((product) => {
     const isActive = pathname === product.href  
     return (
-    <Link  href={product.href} className={isActive ? 'animate-customAnimation1 ' : '' } >
-    <div className="color  " key={product.id}>
+    <Link key={product.id}  href={product.href} className={isActive ? 'animate-customAnimation1 ' : '' } >
+    <div className="color  " >
     <Image className='w-20 object-contain h-20 ' src={product.img} alt='img'/>
     </div>
     </Link>
