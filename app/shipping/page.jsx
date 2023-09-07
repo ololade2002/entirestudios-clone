@@ -72,7 +72,7 @@ const router = useRouter()
        <div className="">
         <div className="mt-2">
         <input type="text" name="email" id="email" placeholder='Email' autoComplete="email"
-        className="block px-4 font-space w-full rounded-md border-0 py-3  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[15px]  placeholder:text-gray-800 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
+        className="block px-4 font-space w-full rounded-md border py-3  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[15px]  placeholder:text-gray-800 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
          />
         </div>
         </div>
