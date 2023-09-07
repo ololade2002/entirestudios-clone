@@ -72,7 +72,7 @@ const router = useRouter()
        <div className="">
         <div className="mt-2">
         <input type="text" name="email" id="email" placeholder='Email' autoComplete="email"
-        className="block px-4 font-space w-full rounded-md border py-3  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[15px]  placeholder:text-gray-800 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
+        className="block px-4 font-space w-full rounded-md border border-gray-300 py-3  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-[15px]  placeholder:text-gray-800 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
          />
         </div>
         </div>
@@ -97,7 +97,7 @@ const router = useRouter()
         <label htmlFor="country" className="block f font-space text-[16px] font-medium leading-6 text-black"> Country/Region </label>
         <div className="mt-2">
         <input type="text" name="country" id="country" autoComplete="country-name"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
         
@@ -106,7 +106,7 @@ const router = useRouter()
         <label htmlFor="first-name" className="block f font-space text-[17px] font-medium leading-6 text-black"> First name </label>
         <div className="mt-2">
         <input type="text" name="first-name" id="first-name" autoComplete="given-name"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
 
@@ -114,7 +114,7 @@ const router = useRouter()
         <label htmlFor="last-name" className="block f font-space text-[16px] font-medium leading-6 text-black"> Last name </label>
         <div className="mt-2">
         <input type="text" name="last-name" id="last-name" autoComplete="family-name"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
         </div>
@@ -123,7 +123,7 @@ const router = useRouter()
         <label htmlFor="street-address" className="block f font-space text-[16px] font-medium leading-6 text-black"> Address </label>
         <div className="mt-2">
         <input type="text" name="street-address" id="street-address" autoComplete="street-address"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
 
@@ -131,7 +131,7 @@ const router = useRouter()
         <label htmlFor="apartment" className="block f font-space text-[16px] font-medium leading-6 text-black"> Apartment (optional) </label>
         <div className="mt-2">
         <input type="text" name="apartment" id="apartment" autoComplete="street-address"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
 
@@ -140,7 +140,7 @@ const router = useRouter()
         <label htmlFor="city" className="block f font-space text-[16px] font-medium leading-6 text-black"> City </label>
         <div className="mt-2">
         <input type="text" name="city" id="city" autoComplete="address-level2"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
 
@@ -148,7 +148,7 @@ const router = useRouter()
         <label htmlFor="region" className="block f font-space text-[16px] font-medium leading-6 text-black"> Region </label>
         <div className="mt-2">
         <input type="text" name="region" id="region" autoComplete="address-level1"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
 
@@ -156,7 +156,7 @@ const router = useRouter()
         <label htmlFor="zip" className="block f font-space text-[16px] font-medium leading-6 text-black"> Postal Code </label>
         <div className="mt-2">
         <input type="text" name="zip" id="zip" autoComplete="postal-code"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
         </div>
@@ -165,7 +165,7 @@ const router = useRouter()
         <label htmlFor="phone" className="block f font-space text-[17px] font-medium leading-6 text-black"> Phone </label>
         <div className="mt-2">
         <input type='text' name="phone" id="phone" autoComplete="phone"
-        className="block px-3 font-space w-full rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
+        className="block px-3 font-space w-full rounded-md border border-gray-300 py-3 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 f focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"/>
         </div>
         </div> 
 
